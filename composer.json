@@ -1,0 +1,28 @@
+{
+    "name": "zvtech/cryptopro",
+    "description": "CryptoPro 5.0 package",
+    "type": "library",
+    "require": {
+        "mikehaertl/php-shellcommand": "1.6.1",
+        "php": ">=7.3.0"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.1@dev",
+        "phpunit/phpunit": "^8"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zulfigarov Nuran",
+            "email": "zulfigarov@z-v.tech"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Cryptopro\\": "src/",
+            "Cryptopro\\Exception\\": "src/exceptions/",
+            "Cryptopro\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev"
+}
